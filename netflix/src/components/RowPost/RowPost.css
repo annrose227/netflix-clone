@@ -12,10 +12,20 @@
   display: none;
 }
 .poster {
+  cursor: pointer;
   max-height: 250px;
   margin-right: 10px;
 }
 .small_poster {
+  cursor: pointer;
   max-height: 140px;
   margin-right: 10px;
+}
+.poster:hover {
+  transform: scale(1.1);
+  /* transition: all 0.2s ease-in; */
+}
+.small_poster:hover {
+  transform: scale(1.1);
+  /* transition: all 0.2s ease-in; */
 }
